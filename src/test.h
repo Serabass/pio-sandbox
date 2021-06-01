@@ -1,12 +1,14 @@
+#pragma once
 
 #ifndef TEST_H
 #define TEST_H
+
 class Test
 {
 public:
   int add(int a, int b);
 };
 
-Test *test;
+Test *test = new Test();
 
-#endif
+#endif /* TEST_H */
