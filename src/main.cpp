@@ -1,7 +1,7 @@
 #include "Arduino.h"
 #include "test.h"
 
-#define DEBUG
+// #define DEBUG
 
 #ifdef DEBUG
 #include "avr8-stub.h"
