@@ -10,6 +10,7 @@
             "includePath": [
                 "M:/dev/arduino/platformio-examples-develop/platformio-examples-develop/unit-testing/wiring-blink/include",
                 "M:/dev/arduino/platformio-examples-develop/platformio-examples-develop/unit-testing/wiring-blink/src",
+                "M:/dev/arduino/platformio-examples-develop/platformio-examples-develop/unit-testing/wiring-blink/.pio/libdeps/uno/avr-debugger/avr8-stub",
                 "C:/Users/Serabass/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/Serabass/.platformio/packages/framework-arduino-avr/variants/standard",
                 "C:/Users/Serabass/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
@@ -25,6 +26,7 @@
                 "path": [
                     "M:/dev/arduino/platformio-examples-develop/platformio-examples-develop/unit-testing/wiring-blink/include",
                     "M:/dev/arduino/platformio-examples-develop/platformio-examples-develop/unit-testing/wiring-blink/src",
+                    "M:/dev/arduino/platformio-examples-develop/platformio-examples-develop/unit-testing/wiring-blink/.pio/libdeps/uno/avr-debugger/avr8-stub",
                     "C:/Users/Serabass/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/Serabass/.platformio/packages/framework-arduino-avr/variants/standard",
                     "C:/Users/Serabass/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",

@@ -6,8 +6,20 @@
 
 #include "Arduino.h"
 
+#define DEBUG
+
+#ifdef DEBUG
+#include "avr8-stub.h"
+#include "app_api.h" // only needed with flash breakpoints
+#endif
+
+int a = 1;
+
 void setup()
 {
+#ifdef DEBUG
+  debug_init();
+#endif
   // initialize LED digital pin as an output.
   pinMode(LED_BUILTIN, OUTPUT);
 }
@@ -22,4 +34,5 @@ void loop()
   digitalWrite(LED_BUILTIN, LOW);
   // wait for a second
   delay(1000);
+  a++;
 }
