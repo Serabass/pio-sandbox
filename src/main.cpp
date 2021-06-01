@@ -1,4 +1,3 @@
-
 #include "Arduino.h"
 #include "test.h"
 
@@ -8,6 +7,8 @@
 #include "avr8-stub.h"
 #include "app_api.h" // only needed with flash breakpoints
 #endif
+
+Test *test = new Test();
 
 void setup()
 {

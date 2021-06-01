@@ -9,6 +9,4 @@ public:
   int add(int a, int b);
 };
 
-Test *test = new Test();
-
 #endif /* TEST_H */
