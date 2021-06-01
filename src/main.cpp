@@ -35,4 +35,6 @@ void loop()
   // wait for a second
   delay(1000);
   a++;
+
+  Serial.println("test");
 }
